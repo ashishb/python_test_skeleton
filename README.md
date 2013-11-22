@@ -1,4 +1,4 @@
-python_test_skeleton
+Python Test Skeleton Generator
 ====================
 
 Python unittest skeleton generator.
