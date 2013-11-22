@@ -2,7 +2,7 @@ python_test_skeleton
 ====================
 
 Python unittest skeleton generator.
-
+```
 usage: generator.py [-h] [-f FILEPATH] [-i INDENT]
 
 optional arguments:
@@ -11,4 +11,4 @@ optional arguments:
                         path of the python file
   -i INDENT, --indent INDENT
                         indentation string (default: two whitespaces)
-
+```
