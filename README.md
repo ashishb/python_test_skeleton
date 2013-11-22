@@ -39,6 +39,7 @@ will generate
 import unittest
 
 import hello_world
+
 class HelloWorldTest(unittest.TestCase):
 	def setUp(self):
 		pass 
