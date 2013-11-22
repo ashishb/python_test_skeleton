@@ -23,7 +23,7 @@ class Generator(object):
 		try:
 			sys.path.append(base_path)
 			module = importlib.import_module(module_name)
-			output += 'import %s\n' % module_name
+			output += 'import %s\n\n' % module_name
 		except ImportError as e:
 			logger.error('Failed')
 			logger.error('%s', traceback.format_exc())
