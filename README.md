@@ -13,7 +13,8 @@ optional arguments:
                         indentation string (default: two whitespaces)
 ```
 
-If hello_world.py contains ```
+If hello_world.py contains 
+```
 class HelloWorld(object):
 
 	def hello(self):
