@@ -40,8 +40,13 @@ class Generator(object):
 						output += ('%sdef test_%s(self):\n%s%spass'
 								' # To be implemented.\n\n' %(indent, func_name,
 										indent, indent))
+			elif inspect.isfunction(class_obj):
+				output += 'class GlobalMethod_%sTest(unittest.TestCase):\n' % (
+						class_name)
+				output += '%sdef test_%s(self):\n%s%spass # To be implemented.\n\n' %(
+						indent, class_name, indent, indent)
 
-		print '\n'
+		output += 'if __name__ == \'__main__\':\n%sunittest.main()' % indent
 		print output
 
 
