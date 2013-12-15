@@ -54,3 +54,7 @@ class GlobalMethod_mainTest(unittest.TestCase):
 if __name__ == '__main__':
 	unittest.main()
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ashishb/python_test_skeleton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
