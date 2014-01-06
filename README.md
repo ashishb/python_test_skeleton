@@ -3,14 +3,17 @@ Python Test Skeleton Generator
 
 Python unittest skeleton generator.
 ```
-usage: generator.py [-h] [-f FILEPATH] [-i INDENT]
+usage: generator.py [-h] [-f FILEPATH] [-t TEST_FILEPATH] [-i INDENT] [-v]
 
 optional arguments:
   -h, --help            show this help message and exit
   -f FILEPATH, --filepath FILEPATH
                         path of the python file
+  -t TEST_FILEPATH, --test_filepath TEST_FILEPATH
+                        path og the test file(optional)
   -i INDENT, --indent INDENT
                         indentation string (default: two whitespaces)
+  -v, --verbose         verbose output
 ```
 
 If hello_world.py contains 
