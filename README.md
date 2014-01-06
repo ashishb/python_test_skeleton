@@ -10,7 +10,7 @@ optional arguments:
   -f FILEPATH, --filepath FILEPATH
                         path of the python file
   -t TEST_FILEPATH, --test_filepath TEST_FILEPATH
-                        path og the test file(optional)
+                        path of the test file(optional)
   -i INDENT, --indent INDENT
                         indentation string (default: two whitespaces)
   -v, --verbose         verbose output
