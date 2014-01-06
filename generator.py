@@ -115,7 +115,7 @@ def main():
 	parser.add_argument('-f', '--filepath', dest='filepath',
 			help='path of the python file')
 	parser.add_argument('-t', '--test_filepath', dest='test_filepath',
-			help='path og the test file(optional)')
+			help='path of the test file(optional)')
 	parser.add_argument('-i', '--indent', dest='indent',
 			default='  ', help='indentation string (default: two whitespaces)')
 	parser.add_argument('-v', '--verbose', dest='verbose',
