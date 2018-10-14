@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
 then
 ```
-python generator.py -f hello_world.py -t '\t' > hello_world_test_tab.py
+python generator.py -f hello_world.py -i '\t' > hello_world_test_tab.py
 ```
 
 will generate
